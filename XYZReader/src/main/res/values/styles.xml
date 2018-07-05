@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Article List Activity ToolBar style -->
+    <style name="ArticleListToolBar">
+        <item name="android:background">@color/primary_color</item>
+    </style>
+
+
+    <!-- Article Detail collapsing ToolBar style -->
+    <style name="ArticleDetailCollapsingToolBarLayout">
+        <item name="expandedSubtitleTextAppearance">@style/SubTitle.ExpandedAppBar</item>
+    </style>
+    <style name="SubTitle.ExpandedAppBar" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:layout_marginStart">2dp</item>
+    </style>
+
+
+    <!-- list_item_article TextViews styles -->
+    <style name="PrimaryTextView">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">@dimen/textView_primary_size</item>
+    </style>
+    <style name="SecondaryTextView">
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textSize">@dimen/textView_secondary_size</item>
+    </style>
+
+</resources>
